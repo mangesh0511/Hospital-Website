@@ -1,0 +1,208 @@
+{
+  "hospitalDb": [
+    {
+      "id": "1",
+      "name": "Cooper Hospital",
+      "department": [
+        "Dermatology",
+        "Neurology",
+        "Pediatrics",
+        "Cardiology"
+      ],
+      "slots": [
+        {
+          "id": 1,
+          "name": "Morning",
+          "time": "2026-01-28T05:36:45.508Z"
+        },
+        {
+          "id": 2,
+          "name": "Evening",
+          "time": "2026-01-28T11:30:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": " Fortis",
+      "department": [
+        "ENT",
+        "Neurology",
+        "Radiology",
+        "Cardiology"
+      ],
+      "slots": [
+        {
+          "id": 1,
+          "name": "Morning",
+          "time": "2026-01-28T04:30:41.000Z"
+        },
+        {
+          "id": 2,
+          "name": "Afternoon",
+          "time": "2026-01-28T08:30:41.000Z"
+        },
+        {
+          "id": "3",
+          "name": " Evening",
+          "time": "2026-01-28T15:30:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Wockhardt",
+      "department": [
+        "Neurology",
+        "ENT",
+        "Pediatrics",
+        "Cardiology",
+        "Radiology"
+      ],
+      "slots": [
+        {
+          "id": "1",
+          "name": "Morning",
+          "time": "2026-01-28T05:30:41.000Z"
+        },
+        {
+          "id": "2",
+          "name": "Evening",
+          "time": "2026-01-28T14:30:41.000Z"
+        }
+      ]
+    }
+  ],
+  "Bookings": [
+    {
+      "id": "3",
+      "name": "GHI",
+      "number": 8978789877,
+      "slot": "10:00"
+    },
+    {
+      "id": "4",
+      "name": "JKL",
+      "number": 8978789877,
+      "slot": "10:00"
+    },
+    {
+      "id": "5",
+      "name": "MNO",
+      "number": "4489394948",
+      "slot": "17:00"
+    },
+    {
+      "id": "361c",
+      "name": "abc",
+      "number": "67688767",
+      "slot": "02:21"
+    },
+    {
+      "id": "a7fa",
+      "name": "abc",
+      "number": "67688767",
+      "slot": "02:21"
+    }
+  ],
+  "Cancel": [
+    {
+      "id": "1",
+      "name": "Mangesh",
+      "number": 8978789877,
+      "slot": "10:00"
+    },
+    {
+      "id": "2",
+      "name": "Adithya",
+      "number": 8978789877,
+      "slot": "13:00"
+    },
+    {
+      "id": "8699",
+      "name": "JKL",
+      "number": "8978789877",
+      "slot": "10:00"
+    },
+    {
+      "id": "2f6c",
+      "name": "JKL",
+      "number": "8978789877",
+      "slot": "10:00 - 11:00"
+    },
+    {
+      "id": "1",
+      "name": "ABC",
+      "number": 8978789877,
+      "slot": "10:00"
+    },
+    {
+      "id": "2",
+      "name": "DEF",
+      "number": 8978789877,
+      "slot": "10:00"
+    },
+    {
+      "id": "5",
+      "name": "MNO",
+      "number": "4489394948",
+      "slot": "17:00"
+    },
+    {
+      "id": "5",
+      "name": "MNO",
+      "number": "4489394948",
+      "slot": "17:00"
+    },
+    {
+      "id": "3",
+      "name": "GHI",
+      "number": 8978789877,
+      "slot": "10:00"
+    },
+    {
+      "id": "7296",
+      "name": "abc",
+      "number": "67688767",
+      "slot": "02:21"
+    },
+    {
+      "id": "7296",
+      "name": "abc",
+      "number": "67688767",
+      "slot": "02:21"
+    }
+  ],
+  "UserDB": [
+    {
+      "id": "1",
+      "name": "Mangesh",
+      "number": 9876543210,
+      "password": 1234
+    },
+    {
+      "id": "2",
+      "name": "Adithya",
+      "number": 1234567890,
+      "password": 3456
+    },
+    {
+      "id": "3",
+      "name": "Rajath",
+      "number": 9876512340,
+      "password": 5678
+    },
+    {
+      "id": "4",
+      "name": "Shivam",
+      "number": 1234056789,
+      "password": 7890
+    },
+    {
+      "id": "5",
+      "name": "Prince",
+      "number": 9871236540,
+      "password": 9012
+    }
+  ]
+}

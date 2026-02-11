@@ -1,0 +1,31 @@
+
+
+.dept-container {
+    max-width: 1200;
+    padding: 40px 40px;
+    text-align: center;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.list {
+    background: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+
+.list img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+.name {
+    padding: 20px;
+    background-color: rgb(65, 123, 164);
+    text-align: center;
+}

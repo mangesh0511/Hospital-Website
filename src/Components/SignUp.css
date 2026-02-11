@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.signup-container {
+    padding :80px;
+    width: 100%;
+    border-radius: 8px ;
+     border: 3px solid rgb(25, 97, 149);
+    background-color:  rgb(130, 175, 208);
+    text-align: center;
+    max-width: 100%;
+}
+.contact-container {
+    padding: 100px;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid rgb(25, 97, 149);
+    background-color:  rgb(130, 175, 208);
+    max-width: 400px;
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+
+.inputs input{
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 100%;
+}
+.inputs textarea {
+    width: 100%;      
+    min-height: 100px; 
+    margin-bottom: 10px;
+      
+}

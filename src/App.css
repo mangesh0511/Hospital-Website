@@ -1,0 +1,105 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: WHITE;
+     font-family: sans-serif;
+     min-height: 100vh;
+     max-width: auto;
+     color: white;
+     font-size: larger;
+ }
+
+ button {
+     all: unset;
+     margin: 10px 10px;
+     height: 20px;
+     color: white;
+     font-weight: 5000px;
+
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1000 px;
+     margin: 0 auto;
+     height: 50px;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     background-color: rgb(65, 123, 164);
+     padding-right: 50px;
+ }
+
+ a {
+     text-decoration: none;
+     color:rgb(25, 97, 149);
+ }
+
+ nav .logo img {
+    margin-left: 25px;
+     max-height: 50px;
+     max-width: 50px;
+ }
+
+ nav ul {
+     display: flex;
+     list-style: none;
+     gap: 50px;
+
+ }
+
+ .text {
+     text-align: center;
+     color:rgb(25, 97, 149);
+ }
+
+ .hero {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /* Pushes content left and image right */
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 20px;
+     height: calc(100vh -50px);
+     color:rgb(25, 97, 149)
+ }
+
+ .hero-left {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     color:rgb(25, 97, 149);
+ }
+
+ .hero-img img {
+     max-width: 500px;
+     height: 700px;
+     border-radius: 15px;
+ }
+
+ /* Update your global button style */
+ button {
+     all: unset;
+     padding: 10px 24px;
+     /* Increased padding for a better look */
+     background: rgb(25, 97, 149);
+     /* A slightly deeper orange for contrast */
+     color: white;
+     font-weight: 600;
+     /* Thicker text */
+     cursor: pointer;
+     border-radius: 8px;
+     /* Rounded corners make it look like a button */
+     text-align: center;
+     transition: background 0.3s ease, transform 0.2s ease;
+     /* Smooth hover effect */
+     display: inline-block;
+     /* Ensures it behaves like a button box */
+     border: 2px solid white;
+ }
+
+
+ 
