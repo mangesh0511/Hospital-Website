@@ -11,7 +11,9 @@ const Hero = () => {
         <main className="hero">
             <div className="hero-left">
                 <div className="hero-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus neque voluptates quidem error! Dicta, voluptas consequuntur facere in debitis fugit hic aperiam unde laudantium possimus ea sapiente adipisci rerum!</p>
+                    <p>
+                        Dedicated to excellence in patient care, research, and education. We strive to improve the health of our community by providing high-quality, cost-effective medical services in a safe and nurturing environment.
+                    </p>
                 </div>
                 <div className="hero-button">
                     <button onClick={() => handleClick("/Contact Us")}> Enquire </button>
