@@ -37,7 +37,7 @@ function App() {
 }
 
 export default App;
-function hospitalApi() {
-  throw new Error('Function not implemented.');
-}
+// function hospitalApi() {
+//   throw new Error('Function not implemented.');
+// }
 
